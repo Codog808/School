@@ -47,7 +47,7 @@ host uhunix
 
 # output redirection
 
-- <command> > <filename>
+- command > file.txt
 
 # summary
 
