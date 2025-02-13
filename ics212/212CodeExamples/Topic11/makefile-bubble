@@ -1,0 +1,9 @@
+bubble: bubble.o arrayfunctions.o
+	gcc bubble.o arrayfunctions.o -o bubble
+
+bubble.o: bubble.c arrayfunctions.h
+	gcc -c bubble.c 
+
+arrayfunctions.o: arrayfunctions.c arrayfunctions.h
+	gcc -c arrayfunctions.c 
+

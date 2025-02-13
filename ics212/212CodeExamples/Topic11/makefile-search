@@ -1,0 +1,11 @@
+search: search.o arrayfunctions.o getdouble.o
+	gcc search.o arrayfunctions.o getdouble.o -o search -lm
+
+search.o: search.c arrayfunctions.h getdouble.h
+	gcc -c search.c
+
+arrayfunctions.o: arrayfunctions.c arrayfunctions.h
+	gcc -c arrayfunctions.c
+
+getdouble.o: getdouble.c getdouble.h
+	gcc -c getdouble.c

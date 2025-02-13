@@ -1,0 +1,8 @@
+program: stringinput.o input.o
+	gcc stringinput.o input.o -o program
+
+stringinput.o: stringinput.c stringinput.h
+	gcc -c stringinput.c
+
+input.o: input.c stringinput.h
+	gcc -c input.c

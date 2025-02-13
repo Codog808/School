@@ -1,0 +1,6 @@
+program: inputchar.o
+	gcc inputchar.o -o program
+
+inputchar.o: inputchar.c
+	gcc -c inputchar.c
+

@@ -1,0 +1,6 @@
+format: format.o
+	gcc format.o -o format -lm
+
+format.o: format.c
+	gcc -c format.c 
+

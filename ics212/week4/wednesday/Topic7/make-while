@@ -1,0 +1,9 @@
+whileExample: while.o getdouble.o
+	gcc while.o getdouble.o -o whileExample -lm
+
+while.o: while.c getdouble.h
+	gcc -c while.c
+
+getdouble.o: getdouble.c getdouble.h
+	gcc -c getdouble.c
+

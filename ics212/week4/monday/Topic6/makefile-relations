@@ -1,0 +1,8 @@
+relations: relations.o
+	gcc relations.o -o relations -lm
+
+relations.o: relations.c
+	gcc -c relations.c
+
+
+

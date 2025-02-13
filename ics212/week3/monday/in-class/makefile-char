@@ -1,0 +1,6 @@
+program: a4_inclass_codyts.o
+	gcc a4_inclass_codyts.o -o program
+
+a4_inclass_codyts.o: a4_inclass_codyts.c
+	gcc -c a4_inclass_codyts.c
+

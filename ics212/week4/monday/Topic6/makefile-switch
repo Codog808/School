@@ -1,0 +1,8 @@
+switch: switch.o
+	gcc switch.o -o switch -lm
+
+switch.o: switch.c
+	gcc -c switch.c
+
+
+

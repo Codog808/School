@@ -1,0 +1,9 @@
+executablename: mainsourcefilename.o includefilename.o
+	gcc mainsourcefilename.o includefilename.o -o executablename -lm
+
+mainsourcefilename.o: mainsourcefilename.c includefilename.h
+	gcc -c mainsourcefilename.c
+
+includefilename.o: includefilename.c includefilename.h
+	gcc -c includefilename.c
+

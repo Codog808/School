@@ -1,0 +1,9 @@
+fib: fib.o getdouble.o
+	gcc fib.o getdouble.o -o fib -lm
+
+fib.o: fib.c getdouble.h
+	gcc -c fib.c 
+
+getdouble.o: getdouble.c getdouble.h
+	gcc -c getdouble.c 
+

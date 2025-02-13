@@ -1,0 +1,12 @@
+bitor: bitor.o printbits.o getdouble.o
+	gcc bitor.o printbits.o getdouble.o -o bitor -lm -fPIC
+
+bitor.o: bitor.c printbits.h getdouble.h
+	gcc -c bitor.c 
+
+printbits.o: printbits.c printbits.h
+	gcc -c printbits.c
+
+getdouble.o: getdouble.c getdouble.h
+	gcc -c getdouble.c 
+

@@ -1,0 +1,8 @@
+operators: operators.o
+	gcc operators.o -o operators -lm
+
+operators.o: operators.c
+	gcc -c operators.c
+
+
+

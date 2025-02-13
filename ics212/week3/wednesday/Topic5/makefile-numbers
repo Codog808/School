@@ -1,0 +1,9 @@
+numbers: numbers.o getdouble.o
+	gcc numbers.o getdouble.o -o numbers -lm
+
+numbers.o: numbers.c getdouble.h
+	gcc -c numbers.c 
+
+getdouble.o: getdouble.c getdouble.h
+	gcc -c getdouble.c 
+

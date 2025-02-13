@@ -1,0 +1,6 @@
+define: define.o
+	gcc define.o -o define
+
+define.o: define.c
+	gcc -c define.c
+ 

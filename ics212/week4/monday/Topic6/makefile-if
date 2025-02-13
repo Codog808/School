@@ -1,0 +1,8 @@
+if: if.o
+	gcc if.o -o if -lm
+
+if.o: if.c
+	gcc -c if.c
+
+
+

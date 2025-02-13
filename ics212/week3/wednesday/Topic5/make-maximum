@@ -1,0 +1,6 @@
+maximum: maximum.o
+	gcc maximum.o -o maximum
+
+maximum.o: maximum.c
+	gcc -c maximum.c
+ 

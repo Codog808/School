@@ -1,0 +1,9 @@
+program: a4_after_codyts.o getdouble.o
+	gcc a4_after_codyts.o getdouble.o -o program -lm
+
+a4_after_codyts.o: a4_after_codyts.c getdouble.h
+	gcc -c a4_after_codyts.c 
+
+getdouble.o: getdouble.c getdouble.h
+	gcc -c getdouble.c 
+

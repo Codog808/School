@@ -1,0 +1,74 @@
+    cody shitagi
+
+    ICS 212 Assignment #2
+
+    2025-01-15
+
+    1  exit
+    2  ls
+    3  unzip *.zip
+    4  ls
+    5  df
+    6  df -h
+    7  $PWD
+    8  exit
+    9  echo $0
+   10  ls
+   11  212CodeExamples/
+   12  tmux
+   13  apt
+   14  pacman
+   15  sudo
+   16  ls 
+   17  vim
+   18  kill $`
+   19  kill $1
+   20  vim example
+   21  $TERM
+   22  exit
+   23  kill $1
+   24  kill %1
+   25  kill %2
+   26  kill %3
+   27  jobs
+   28  exit
+   29  ls
+   30  jobs
+   31  kill %1
+   32  kill %2
+   33  kill %1
+   34  kill %2
+   35  kill %1
+   36  kill %2
+   37  kill %1
+   38  kill %2
+   39  kill %1
+   40  jobs
+   41  exit
+   42  vim
+   43  ls
+   44  vim test.txt
+   45  ls
+   46  exit
+   47  ls
+   48  ls 212CodeExamples
+   49  ls -l
+   50  ls -al 212CodeExamples
+   51  ls
+   52  ls -l 212CodeExamples
+   53  ls -al 212CodeExamples
+   54  clear
+   55  ls
+   56  ls -al 212CodeExamples
+   57  cp 212CodeExamples/.* .
+   58  ls
+   59  ls -al
+   60  source .bashrc
+   61  ls
+   62  ls -l
+   63  ls -al
+   64  ls 
+   65  ls -a
+   66  ls -l 212CodeExamples
+   67  history
+   68  history > a2_uhusername.txtD

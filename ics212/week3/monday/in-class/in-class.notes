@@ -1,0 +1,23 @@
+# Topic 4 
+Overview of C
+
+- Itself is composed of barely anything, requires external libraries for higher abstractions( studio.h ).
+
+## Creating a executable from c
+- gcc -c <program name .c> | creates object code
+- gcc <program name .o> | links code and libraries to make executable file.
+- then the output should be called <program name>; where it can be executed by referencing the path of the file.
+  - Easy way is to ./<program name> in the same directory as the file and '.' represents the current directory path.
+
+## make file
+- A short cut of creating a program: one command to compile and link.
+- if with a makefile without the base name 'makefile' reference abstractions
+  make -f <custom makefile name>
+
+- A basic makefile contains groups of three lines...
+  1. <target name>: list of dependencies
+  2. <tab> commands needed to build target
+  3. Blank line (new line character)
+  
+  * reference 'makefile-char' to see how the makefile should be formatted.
+  ** make sure that the tab is a TAB character not spaces...

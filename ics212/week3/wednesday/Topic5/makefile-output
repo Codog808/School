@@ -1,0 +1,6 @@
+output: output.o
+	gcc output.o -o output -lm
+
+output.o: output.c
+	gcc -c output.c 
+

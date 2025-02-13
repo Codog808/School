@@ -1,0 +1,6 @@
+sourcefilename: sourcefilename.o
+	gcc sourcefilename.o -o sourcefilename
+
+sourcefilename.o: sourcefilename.c
+	gcc -c sourcefilename.c
+ 
